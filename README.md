@@ -2,9 +2,9 @@
 
 <div align="center">
   <br />
-  <a href="https://youtu.be/DLeAPn5-TIA" target="_blank">
-    <img src="./banner.png" alt="Project Banner">
-  </a>
+  
+    <img src="https://image2url.com/r2/default/images/1771600453277-fb35ab25-2b82-4a92-8def-73b2b33f4a21.jpg">
+  
   <br />
   <div>
     <img src="https://img.shields.io/badge/-Next.js-000?style=for-the-badge&logo=next.js" alt="Next.js" />
@@ -16,7 +16,7 @@
   <h3 align="center">Build a Modern Ecommerce Platform</h3>
   <div align="center">
     Follow along with our detailed tutorial on 
-    <a href="https://youtu.be/YOUR_VIDEO_LINK" target="_blank"><b>YouTube</b></a>
+    
   </div>
   <br />
 </div>
@@ -32,16 +32,16 @@
 
 ## 🚀 Introduction
 
-In this video tutorial, you'll learn how to build a fully functional ecommerce platform using modern web technologies such as Next.js 15, Tailwind CSS v4, Stripe for payments, and Zustand for state management. This project focuses on building a sleek, responsive frontend with a secure payment flow—without using a backend database like Prisma, Postgres, or Neon.
+ This project focuses on building a sleek, responsive frontend with a secure flow—without using a backend database like Prisma, Postgres, or Neon.
 
-Watch the tutorial on [YouTube](https://youtu.be/YOUR_VIDEO_LINK).
+
 
 ## ⚙️ Tech Stack
 
 - **Next.js 15** – For server components and modern routing
 - **Tailwind CSS v4** – For rapid, responsive styling using a CSS‑first configuration
 - **TypeScript** – For type safety and modern JavaScript features
-- **Stripe** – For product management and payment processing
+- **Dummyjson** – For product fetching
 - **Zustand** – For lightweight client‑side state management
 
 ## ⚡️ Features
@@ -54,9 +54,6 @@ Watch the tutorial on [YouTube](https://youtu.be/YOUR_VIDEO_LINK).
 
 - **Real‑Time Cart State:**  
   A live-updating cart icon in the navbar using Zustand.
-
-- **Seamless Stripe Checkout:**  
-  A secure checkout process powered by Stripe's API.
 
 - **Modern UI:**  
   A sleek, professional design built with Tailwind CSS v4 and shadcn‑inspired UI components.
