@@ -4,9 +4,8 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import Image from 'next/image';
 
-interface Props { params: { id: string }; }
-
-export default async function ProductPage({ params }: Props) {
+export default async function ProductPage({ params: paramsPromise }: { params: Promise<{ id: string }> }) {
+  const params = await paramsPromise;
   let product;
   try {
     product = await getProduct(params.id);
