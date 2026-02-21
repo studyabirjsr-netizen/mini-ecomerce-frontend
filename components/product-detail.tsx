@@ -59,3 +59,4 @@ export const ProductDetail = ({ product }: Props) => {
     </div>
   );
 };
+//hi

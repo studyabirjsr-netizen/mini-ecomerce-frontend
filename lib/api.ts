@@ -1,6 +1,9 @@
 // lib/api.ts
 // Using DummyJSON instead of fakestoreapi.com to avoid DNS / ENOTFOUND issues
 
+// lib/api.ts
+// Using DummyJSON instead of fakestoreapi.com to avoid DNS / ENOTFOUND issues
+
 export interface Product {
   id: number;
   title: string;
