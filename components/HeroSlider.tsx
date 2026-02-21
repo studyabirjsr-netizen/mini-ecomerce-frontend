@@ -16,7 +16,12 @@ export default function HeroSlider({ products }: { products: Product[] }) {
       <CardContent className="p-0 relative h-[400px] md:h-[500px]">
         {products.slice(0, 5).map((product, idx) => (
           <div key={product.id} className={`absolute inset-0 transition-all duration-1000 ${idx === current ? 'scale-100 opacity-100' : 'scale-105 opacity-0'}`}>
-            
+            <Image
+              src={product.thumbnail}
+              alt={product.title}
+              fill
+              className="object-cover"
+            />
             <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent flex items-end p-8 md:p-16">
               <div className="text-white max-w-lg">
                 <h2 className="text-2xl md:text-4xl font-bold mb-4 line-clamp-2">{product.title}</h2>
